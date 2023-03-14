@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/player_money_background">
+    <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="#ffffff"
+            android:text="Bạn đã sẵn sàng chơi với chúng tôi?"/>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <Button android:layout_weight="1"
+            android:id="@+id/btn_not_ready"
+            android:layout_height="42dp"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_radius"
+            android:text="Chưa sẵn sàng"
+            android:layout_marginRight="16dp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"/>
+        <Button android:layout_weight="1"
+            android:id="@+id/btn_ready"
+            android:textAllCaps="false"
+            android:layout_height="42dp"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_radius"
+            android:text="Sẵn sàng"
+            android:textColor="#ffffff"/>
+    </TableRow>
+</LinearLayout>
